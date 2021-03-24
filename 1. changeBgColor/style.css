@@ -1,0 +1,32 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bgColor {
+    width: 100vw;
+    height: 100vh;
+    background-color: teal;
+}
+
+.btn {
+    position: absolute;
+    background-color: transparent;
+    border: 1px solid #aaa;
+    padding: 10px 20px;
+    border-radius: 10px;
+    top: 45%;
+    left: 45%;
+    color: #aaa;
+}
+
+.btn:hover {
+    background-color: #aaa;
+    cursor: pointer;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: 0px;
+    box-shadow: 0 0 0px 4px #aaaaaa33;
+}
