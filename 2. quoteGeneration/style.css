@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    background-color: #b09f98;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: inline;
+    background-color: #d8cecc;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 300px);
+    padding: 100px;
+}
+
+.btn {
+    background-color: #63b6aa;
+    border: 0px;
+    padding: 15px 30px;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #b09f98;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0px;
+    box-shadow: 0 0 0px 4px #63b6aa44;
+}
+
+.quote {
+    color: #6c757e;
+    font-size: 32px;
+    width: 400px;
+}
+
+.fa-quote-left {
+    margin-right: 15px;
+}
+
+.author {
+    text-align: right;
+    color: #63b6aa;
+    font-weight: 500;
+    font-size: 20px;
+}
