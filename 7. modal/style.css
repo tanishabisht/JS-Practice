@@ -1,0 +1,60 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+
+#imgContainer {
+    filter: blur(0px);
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.item:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+#modalContainer {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(30, 28, 31, 0.863);
+    display: none;
+}
+
+#modal {
+    position: absolute;
+    top: 70px;
+    left: 500px;
+    height: 600px;
+    width: 600px;
+}
+
+.fa-times {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    font-size: 40px;
+    color: #fff;
+}
+
+.fa-times:hover {
+    cursor: pointer;
+}

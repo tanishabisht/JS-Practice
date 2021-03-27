@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.que {
+    font-size: 24px;
+}
+
+.inp {
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.inp:focus {
+    outline: 0px;
+    border: 1px solid #bbb;
+}
+
+#calc {
+    background-color: #e9ebec;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+#tip p {
+    line-height: 0.9em;
+}
+
+.ans {
+    font-weight: 500;
+    color: #456474;
+}

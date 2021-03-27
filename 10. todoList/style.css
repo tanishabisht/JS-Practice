@@ -1,0 +1,37 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#task_inp {
+    border: 1px solid lightcoral;
+    border-radius: 3px 0px 0px 3px;
+    padding: 5px;
+    width: 70%;
+}
+
+#task_inp:focus {
+    outline: 0px;
+    border-color: rgb(197, 92, 92);
+}
+
+#add {
+    background-color: rgb(255, 245, 245);
+    border: 1px solid lightcoral;
+    color: lightcoral;
+    padding: 5px;
+    width: 20%;
+}
+
+#add:active {
+    background-color: lightcoral;
+    color: rgb(255, 245, 245);
+}
+
+.task {
+    background-color: rgb(255, 245, 245);
+    padding: 5px;
+    border-radius: 3px;
+    color: #666;
+    margin-bottom: 10px;
+}

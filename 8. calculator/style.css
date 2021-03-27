@@ -1,0 +1,36 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button {
+    border: 0px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    background-color: #f1f3f4;
+}
+
+button:active {
+    background-color: #eee;
+}
+
+#screen {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+#screen:focus {
+    outline: 0px;
+    border: 1px solid #bbb;
+}
+
+.opn {
+    background-color: #dadce0;
+    font-weight: 500;
+}
+
+.opn:active {
+    background-color: #ccc;
+}

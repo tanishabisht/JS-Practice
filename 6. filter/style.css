@@ -1,0 +1,71 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.buttons {
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: #c7ceea;
+    border: 0px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 3px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background-color: #b2b8d1;
+    color: #fff;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0px;
+    box-shadow: 0 0 0px 4px #c7ceea44;
+}
+
+
+
+
+
+
+
+
+
+.cards {
+    margin-top: 100px;
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    padding-top: 70px;
+    font-size: 30px;
+}
+
+.cars {
+    background-color: #ff9aa2;
+    color: #af6a70;
+}
+
+.animals {
+    background-color: #e2f0cb;
+    color: #95a183;
+}
+
+.fruits {
+    background-color: #b5ead7;
+    color: #739b8b;
+}
+
+.colors {
+    background-color: #ffc8a2;
+    color: #947157;
+}
+
