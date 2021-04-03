@@ -1,0 +1,28 @@
+body {
+    margin: 0px;
+    background-color: #b09f98;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: inline;
+    background-color: #d8cecc;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 300px);
+    padding: 70px;
+}
+
+.header {
+    color: rgb(46, 102, 138);
+}
+
+#day {
+    color: rgb(10, 50, 75);
+}
+
+.tagline {
+    color: #6c757e;
+    font-size: 24px;
+    width: 400px;
+}

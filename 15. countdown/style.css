@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    background-color: #b09f98;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    display: inline;
+    background-color: #d8cecc;
+    position: absolute;
+    top: calc(50% - 200px);
+    left: calc(50% - 300px);
+    padding: 70px;
+}
+
+.header {
+    color: rgb(46, 102, 138);
+}
+
+.counter {
+    color: #6c757e;
+    font-size: 24px;
+    width: 400px;
+    margin-right: 20px;
+}
+
+.number {
+    background-color: rgb(46, 102, 138);
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 50%;
+}
+
+#end {
+    border: 1px solid #6c757e;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#end:focus{
+    outline: 0px;
+    border: 1px solid #343b42;
+}

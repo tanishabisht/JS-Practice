@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* ############ */
+/* ## INPUTS ## */
+/* ############ */
+
+.inputContainer {
+    background-color: rgb(255, 208, 190);
+    border-radius: 3px;
+    padding: 50px;
+}
+
+label {
+    color: rgb(255, 245, 245);
+    font-size: 24px;
+}
+
+.inp {
+    border: 1px solid lightsalmon;
+    border-radius: 3px;
+    padding: 2px;
+    width: 100%;
+}
+
+.inp:focus {
+    outline: 0px;
+    border-color: rgb(175, 77, 77)
+}
+
+#add {
+    background-color: rgb(255, 245, 245);
+    border: 1px solid lightsalmon;
+    color: lightsalmon;
+    padding: 5px;
+    width: 20%;
+}
+
+#add:active {
+    background-color: lightsalmon;
+    color: rgb(255, 245, 245);
+}
+
+.task {
+    background-color: rgb(255, 245, 245);
+    padding: 5px;
+    border-radius: 3px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+
+
+/* ########### */
+/* ## CARDS ## */
+/* ########### */
+.card {
+    width: 32%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid salmon;
+}
+
+.card h4 {
+    color: rgb(175, 77, 77);
+}
+
+.card p {
+    color: lightsalmon;
+}
+
+.fa {
+    color: rgb(175, 77, 77);
+}
+
+.fa:hover {
+    cursor: pointer;
+}
+
+.showBtn {
+    border: 0px;
+    border-radius: 3px;
+    background-color: lightsalmon;
+    color: rgb(255, 245, 245);
+    padding: 2px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.showBtn:active {
+    background-color: salmon;
+}
+
