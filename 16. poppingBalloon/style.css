@@ -1,0 +1,62 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bodyColor);
+}
+
+:root {
+    --bodyColor: #fff;
+    --bgColorNo1: #ff9aa2;
+    --colorNo1: #af6a70;
+    --bgColorNo2: #e2f0cb;
+    --colorNo2: #95a183;
+    --bgColorNo3: #b5ead7;
+    --colorNo3: #739b8b;
+    --bgColorNo4: #ffc8a2;
+    --colorNo4: #947157;
+    --themeColor: #333;
+}
+
+#header {
+    color: var(--themeColor);
+}
+
+.popped {
+    color: var(--colorNo1);
+    margin-top: 50px;
+}
+
+.cards {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.item {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    padding-top: 70px;
+    font-size: 30px;
+    border-radius: 50%;
+}
+
+.color1 {
+    background-color: var(--bgColorNo1);
+    color: var(--colorNo1);
+}
+
+.color2 {
+    background-color: var(--bgColorNo2);
+    color: var(--colorNo2);
+}
+
+.color3 {
+    background-color: var(--bgColorNo3);
+    color: var(--colorNo3);
+}
+
+.colors4 {
+    background-color: var(--bgColorNo4);
+    color: var(--colorNo4);
+}
